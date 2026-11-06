@@ -14,3 +14,11 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+original-static.png
+portfolio-final.png
+portfolio.png
+react-after-load.png
+react-fixed.png
+test-results/
+tmp-script.js
+tmp2-script.js
