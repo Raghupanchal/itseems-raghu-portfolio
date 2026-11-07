@@ -31,8 +31,7 @@ export const PAGE_BODY_HTML = `
         <li><button data-door="0"><span data-h="y 0 -2|o .8 1" data-hs="320 22" data-ht="button">Projects</span></button></li>
         <li><button data-door="1"><span data-h="y 0 -2|o .8 1" data-hs="320 22" data-ht="button">Beyond Code</span></button></li>
         <li><button data-door="2"><span data-h="y 0 -2|o .8 1" data-hs="320 22" data-ht="button">Certificates</span></button></li>
-        <li><button data-door="3"><span data-h="y 0 -2|o .8 1" data-hs="320 22" data-ht="button">My Story</span></button></li>
-        <li><button data-go="about"><span data-h="y 0 -2|o .8 1" data-hs="320 22" data-ht="button">My story</span></button></li>
+        <li><button data-go="about"><span data-h="y 0 -2|o .8 1" data-hs="320 22" data-ht="button">My Story</span></button></li>
         <li><button data-contact><span data-h="y 0 -2|o .8 1" data-hs="320 22" data-ht="button">Contact</span></button></li>
       </ul>
     </nav>
@@ -111,9 +110,7 @@ export const PAGE_BODY_HTML = `
     </div>
 
     <div class="shell hero__bar rv">
-      <span>Available for work</span>
-      <span class="mid">Remote-first, worldwide</span>
-      <span class="scroll">Scroll to explore <i aria-hidden="true">↓</i></span>
+      <span class="scroll" style="margin-left:auto">Scroll to explore <i aria-hidden="true">↓</i></span>
     </div>
   </section>
 
@@ -224,18 +221,19 @@ export const PAGE_BODY_HTML = `
     </div>
   </section>
 
-  <section id="about" class="story" aria-labelledby="storyTitle" style="--n:4">
+    <section id="about" class="story" aria-labelledby="storyTitle" style="--n:5">
   <div class="story__amb" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
   <div class="story__track"><div class="story__pin"><div class="shell story__stage">
     <div class="story__clock"><canvas class="story__bg" aria-hidden="true"></canvas><p class="eyebrow">My story</p><h2 class="story__h" id="storyTitle">Education, leadership &amp; experience.</h2>
       <div class="story__yr" aria-hidden="true"><span class="dg"><span class="dg__c"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span></span><span class="dg"><span class="dg__c"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span></span><span class="dg"><span class="dg__c"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span></span><span class="dg"><span class="dg__c"><i>0</i><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></span></span></div>
-      <p class="story__when" aria-hidden="true">2023</p><div class="story__meter" aria-hidden="true"><svg aria-hidden="true" focusable="false" class="story__rw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg><span class="story__count">01</span><span class="story__of">/ 04</span><i class="story__bar"><b></b></i></div>
+      <p class="story__when" aria-hidden="true">2022</p><div class="story__meter" aria-hidden="true"><svg aria-hidden="true" focusable="false" class="story__rw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 7v5l3 2"/></svg><span class="story__count">01</span><span class="story__of">/ 05</span><i class="story__bar"><b></b></i></div>
     </div>
     <div class="story__line"><span class="story__rail" aria-hidden="true"></span><span class="story__ttrack" aria-hidden="true"><span class="story__tail"></span></span><span class="story__dtrack" aria-hidden="true"><span class="story__dot"></span></span><ol class="story__list">
-      <li class="ch ch--now" data-y="2024" data-when="2024 — 2026"><p class="ch__date">2024 — 2026</p><h3 class="ch__t">Bachelor of Engineering – Computer Science &amp; Engineering (AI &amp; ML)</h3><p class="ch__org">AMC Engineering College, Bengaluru</p><ul class="ch__b"><li>Visvesvaraya Technological University (VTU).</li><li>Graduation: 2026</li><li>CGPA: 7.8</li></ul></li>
-      <li class="ch" data-y="2025" data-when="2025 — Present"><p class="ch__date">2025 — Present</p><h3 class="ch__t">Full Stack AI Developer</h3><p class="ch__org">Stalight Technologies</p><ul class="ch__b"><li>Developing Stalight Campus ERP and AI automation systems.</li><li>Built modules for attendance, academic management, CO attainment, leave, payments, dashboards and role-based access.</li><li>Focused on AI-powered attendance and analytics.</li></ul></li>
-      <li class="ch" data-y="2025" data-when="Feb 2025 — May 2025"><p class="ch__date">Feb 2025 — May 2025</p><h3 class="ch__t">Android App Dev (GenAI) Intern &amp; Frontend Developer Intern</h3><p class="ch__org">MindMatrix · Crack The Campus</p><ul class="ch__b"><li>Built Android apps using Kotlin and Jetpack Compose, integrated Firebase and Google AI Studio GenAI services.</li><li>Developed responsive web and mobile UI using React, React Native, Tailwind CSS and frontend frameworks in Bengaluru.</li></ul></li>
-      <li class="ch" data-y="2025" data-when="2025"><p class="ch__date">2025</p><h3 class="ch__t">Freelance Full-Stack Developer</h3><p class="ch__org">Vyomaa</p><ul class="ch__b"><li>Designed and delivered an end-to-end e-commerce jewellery platform.</li><li>Built premium product catalogs, order management, custom experiences, REST APIs and cloud deployment.</li></ul></li>
+      <li class="ch ch--now" data-y="2022" data-when="2022 — 2026"><p class="ch__date">2022 — 2026</p><h3 class="ch__t">Bachelor of Engineering – Computer Science &amp; Engineering (AI &amp; ML)</h3><p class="ch__org">AMC Engineering College, Bengaluru</p><ul class="ch__b"><li>Visvesvaraya Technological University (VTU).</li><li>Graduation: 2026</li><li>CGPA: 7.8</li></ul></li>
+      <li class="ch" data-y="2026" data-when="2026 — Present"><p class="ch__date">2026 — Present</p><h3 class="ch__t">Full Stack AI Developer</h3><p class="ch__org">Stalight Technologies</p><ul class="ch__b"><li>Developing Stalight Campus ERP and AI automation systems.</li><li>Built modules for attendance, academic management, CO attainment, leave, payments, dashboards and role-based access.</li><li>Focused on AI-powered attendance and analytics.</li></ul></li>
+      <li class="ch" data-y="2026" data-when="Feb 2026 — May 2026"><p class="ch__date">Feb 2026 — May 2026</p><h3 class="ch__t">Android App Dev (GenAI) Intern</h3><p class="ch__org">MindMatrix &amp; VTU (CL Infotech)</p><ul class="ch__b"><li>Built Android apps using Kotlin and Jetpack Compose, integrated Firebase and Google AI Studio GenAI services.</li><li>Developed AI-driven features and cloud services; rated EXCELLENT for internship performance.</li></ul></li>
+      <li class="ch" data-y="2025" data-when="Feb 2025 — May 2025"><p class="ch__date">Feb 2025 — May 2025 · 4 mos</p><h3 class="ch__t">Frontend Developer Intern</h3><p class="ch__org"><a href="https://crackthecampus.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;text-underline-offset:3px">Crack The Campus (Castlerockin Private Limited)</a></p><ul class="ch__b"><li>Developed responsive web and mobile UI using React, React Native, Tailwind CSS and frontend frameworks in Bengaluru.</li><li>Built user-friendly student portals, interactive features, and reusable component systems.</li></ul></li>
+      <li class="ch" data-y="2026" data-when="2026"><p class="ch__date">2026</p><h3 class="ch__t">Freelance Full-Stack Developer</h3><p class="ch__org">Vyomaa</p><ul class="ch__b"><li>Designed and delivered an end-to-end e-commerce jewellery platform.</li><li>Built premium product catalogs, order management, custom experiences, REST APIs and cloud deployment.</li></ul></li>
     </ol></div>
   </div></div></div>
 </section>
@@ -253,7 +251,7 @@ export const PAGE_BODY_HTML = `
     <div class="sf__cols">
       <div><h3>Work</h3><ul class="work"><li><a href="projects/" data-door="0">Projects</a></li><li><a href="beyond-code/" data-door="1">Beyond Code</a></li><li><a href="certificates/" data-door="2">Certificates</a></li><li><a href="my-story/" data-door="3">My Story</a></li><li><a href="Traveller/" data-door="4">Traveller</a></li></ul></div>
       <div><h3>Navigate</h3><ul><li><a href="./" data-go="home">Home</a></li><li><a href="./#about" data-go="about">My story</a></li><li><button data-contact>Contact</button></li></ul></div>
-      <div><h3>Status</h3><ul><li class="st">Available for work</li><li class="st">Remote-first, worldwide</li><li class="st">Local time <span data-ftime>—</span></li></ul></div>
+      <div><h3>Status</h3><ul><li class="st">Local time <span data-ftime>—</span></li></ul></div>
     </div>
     <div class="sf__bot"><span>© <span data-fyear>2026</span> Raghu Panchal. Designed and built by Raghu Panchal.</span><span class="sf__legal"><a href="legal/" target="_top">Privacy &amp; credits</a></span><button data-go="home">Back to top ↑</button></div>
   </div>
@@ -529,7 +527,7 @@ function closeLayer(el, after){
   setTimeout(() => { el.hidden = true; el.classList.remove('closing'); startScroll(); after?.(); }, 460);
 }
 // nav menu
-const NAV = [['Home','home'],['Projects',0],['Beyond Code',1],['Certificates',2],['My Story',3],['My story','about'],['Contact',null]];
+const NAV = [['Home','home'],['Projects',0],['Beyond Code',1],['Certificates',2],['My Story','about'],['Contact',null]];
 const navm = $('#navm');
 $('#navList').innerHTML = NAV.map(([l, id], i) =>
   \`<li><button class="navm__item" style="--d:\${i * 45 + 80}ms" data-i="\${i}"><small>0\${i + 1}</small><span>\${l}</span></button></li>\`).join('');
@@ -544,7 +542,7 @@ $('#navList').addEventListener('click', e => {
 });
 $('#navStart').addEventListener('click', () => closeNav(() => openModal()));
 // request modal
-const CONTACT_EMAIL = 'shahshubham1888@gmail.com';   // where project requests go
+const CONTACT_EMAIL = 'raghupanchal21@gmail.com';   // where project requests go
 document.querySelectorAll('[data-mail]').forEach(a => { a.href = 'mailto:' + CONTACT_EMAIL; a.textContent = CONTACT_EMAIL; });
 const modal = $('#modal'), form = $('#reqForm');
 let lastFocus = null;
@@ -606,7 +604,7 @@ bindHovers();
 
 /* ---------- Flip calendar: skills on an endless desk-calendar flip ---------- */
 (function flipCalendar(){
-  const SKILLS = ['Projects', 'Beyond Code', 'Certificates', 'My Story', 'Traveller'];
+  const SKILLS = ['Full-Stack Developer', 'Entrepreneur', 'AI Enthusiast', 'Product Builder', 'Software Engineer'];
   const HOLD = 1700, FLIP = 1250;
   const cal = $('#cal'); if (!cal) return;
   const body = $('.cal__body', cal), leaf = $('.cal__leaf', cal);
@@ -778,7 +776,7 @@ if (matchMedia('(max-width: 1023.98px), (hover: none)').matches){
 } else liquidReveal($('#fig'), $('#figCanvas'), COLOUR_SRC);
 
 /* ---------- Mode (light / dark) ---------- */
-const MODE_KEY = 'Bornebyte-mode';
+const MODE_KEY = 'raghu-mode';
 const themeMeta = document.querySelector('meta[name="theme-color"]');
 let modeAnimT = 0;
 function getMode(){ return root.dataset.mode === 'dark' ? 'dark' : 'light'; }
@@ -1263,9 +1261,9 @@ const toggleMode = () => setMode(getMode() === 'dark' ? 'light' : 'dark');
   // from the nav or a link: go down to the doors, face the right one, then open it and walk in
   // what each door holds: shown beside the door on hover (desktop), under the swipe hint on phones
   const INFO = [   // [headline, sub-headline, body]
-    ['Projects', 'Vyomma ? KLABO ? neuroCampus', ['Vyomma e-commerce storefront', 'KLABO multi-vendor marketplace', 'neuroCampus ERP and management platform', 'Responsive product UX', 'Brand-first design']],
+    ['Projects', 'Vyomma · KLABO · NeuroCampus', ['Vyomma e-commerce storefront', 'KLABO multi-vendor marketplace', 'neuroCampus ERP and management platform', 'Responsive product UX', 'Brand-first design']],
     ['Beyond Code', 'Platform design and product thinking', ['Marketplace flows', 'Role-based dashboards', 'Seller and admin systems', 'Custom order experiences', 'AI-enabled operations']],
-    ['Certificates', 'Research, planning and visual direction', ['Brand & business needs analysis', 'User & competitor research', 'Information architecture & flows', 'Wireframes & high-fidelity UI', 'Interactive prototypes & testing']],
+    ['Certificates', 'Internships, hackathons and AI credentials', ['Software development internship', 'TJhackIT 2nd place award', 'Hack-A-City AI/ML hackathon', 'Future of Tech: AI & LLMs', 'Infosys AI & Python certifications', 'Android App Dev using GenAI']],
     ['My Story', 'Built around product, people and real workflows', ['Audience and business context first', 'Design systems and flow clarity', 'Scalable frontend and backend thinking', 'Conversion-focused product detail', 'Every screen built to support intent']],
     ['Traveller', 'The eye behind every layout', ['Architecture, concerts & sport', 'Nature & product', 'Light & composition first']],
   ];
@@ -1967,7 +1965,7 @@ export const PAGE_SCRIPT_TEXT = String.raw`
     const entry = performance.getEntriesByType?.('navigation')?.[0];
     navType = entry?.type || (performance.navigation?.type === 1 ? 'reload' : 'navigate');
   } catch (_) {}
-  const key = '__bornebyte_scroll:' + location.pathname + location.search;
+  const key = '__raghu_scroll:' + location.pathname + location.search;
   const save = () => {
     try { sessionStorage.setItem(key, JSON.stringify({ x: window.scrollX, y: window.scrollY })); } catch (_) {}
   };
@@ -1994,7 +1992,7 @@ export const PAGE_SCRIPT_TEXT = String.raw`
 })();
 
 
-try{if(localStorage.getItem('Bornebyte-mode')==='dark'){document.documentElement.dataset.mode='dark';document.querySelector('meta[name=theme-color]')}}catch(e){}
+try{if(localStorage.getItem('raghu-mode')==='dark'){document.documentElement.dataset.mode='dark';document.querySelector('meta[name=theme-color]')}}catch(e){}
 
 
 /* modest devices get the same site with the heaviest per-frame effects eased off */
@@ -2218,7 +2216,7 @@ function closeLayer(el, after){
   setTimeout(() => { el.hidden = true; el.classList.remove('closing'); startScroll(); after?.(); }, 460);
 }
 // nav menu
-const NAV = [['Home','home'],['Projects',0],['Beyond Code',1],['Certificates',2],['My Story',3],['My story','about'],['Contact',null]];
+const NAV = [['Home','home'],['Projects',0],['Beyond Code',1],['Certificates',2],['My Story','about'],['Contact',null]];
 const navm = $('#navm');
 $('#navList').innerHTML = NAV.map(([l, id], i) =>
   \`<li><button class="navm__item" style="--d:\${i * 45 + 80}ms" data-i="\${i}"><small>0\${i + 1}</small><span>\${l}</span></button></li>\`).join('');
@@ -2233,7 +2231,7 @@ $('#navList').addEventListener('click', e => {
 });
 $('#navStart').addEventListener('click', () => closeNav(() => openModal()));
 // request modal
-const CONTACT_EMAIL = 'shahshubham1888@gmail.com';   // where project requests go
+const CONTACT_EMAIL = 'raghupanchal21@gmail.com';   // where project requests go
 document.querySelectorAll('[data-mail]').forEach(a => { a.href = 'mailto:' + CONTACT_EMAIL; a.textContent = CONTACT_EMAIL; });
 const modal = $('#modal'), form = $('#reqForm');
 let lastFocus = null;
@@ -2295,7 +2293,7 @@ bindHovers();
 
 /* ---------- Flip calendar: skills on an endless desk-calendar flip ---------- */
 (function flipCalendar(){
-  const SKILLS = ['Projects', 'Beyond Code', 'Certificates', 'My Story', 'Traveller'];
+  const SKILLS = ['Full-Stack Developer', 'Entrepreneur', 'AI Enthusiast', 'Product Builder', 'Software Engineer'];
   const HOLD = 1700, FLIP = 1250;
   const cal = $('#cal'); if (!cal) return;
   const body = $('.cal__body', cal), leaf = $('.cal__leaf', cal);
@@ -2467,7 +2465,7 @@ if (matchMedia('(max-width: 1023.98px), (hover: none)').matches){
 } else liquidReveal($('#fig'), $('#figCanvas'), COLOUR_SRC);
 
 /* ---------- Mode (light / dark) ---------- */
-const MODE_KEY = 'Bornebyte-mode';
+const MODE_KEY = 'raghu-mode';
 const themeMeta = document.querySelector('meta[name="theme-color"]');
 let modeAnimT = 0;
 function getMode(){ return root.dataset.mode === 'dark' ? 'dark' : 'light'; }
@@ -2952,7 +2950,7 @@ const toggleMode = () => setMode(getMode() === 'dark' ? 'light' : 'dark');
   // from the nav or a link: go down to the doors, face the right one, then open it and walk in
   // what each door holds: shown beside the door on hover (desktop), under the swipe hint on phones
   const INFO = [   // [headline, sub-headline, body]
-    ['Projects', 'Vyomma ? KLABO ? neuroCampus', ['Vyomma e-commerce storefront', 'KLABO multi-vendor marketplace', 'neuroCampus ERP and management platform', 'Responsive product UX', 'Brand-first design']],
+    ['Projects', 'Vyomma · KLABO · NeuroCampus', ['Vyomma e-commerce storefront', 'KLABO multi-vendor marketplace', 'neuroCampus ERP and management platform', 'Responsive product UX', 'Brand-first design']],
     ['Beyond Code', 'Platform design and product thinking', ['Marketplace flows', 'Role-based dashboards', 'Seller and admin systems', 'Custom order experiences', 'AI-enabled operations']],
     ['Certificates', 'Research, planning and visual direction', ['Brand & business needs analysis', 'User & competitor research', 'Information architecture & flows', 'Wireframes & high-fidelity UI', 'Interactive prototypes & testing']],
     ['My Story', 'Built around product, people and real workflows', ['Audience and business context first', 'Design systems and flow clarity', 'Scalable frontend and backend thinking', 'Conversion-focused product detail', 'Every screen built to support intent']],

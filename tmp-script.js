@@ -7,7 +7,7 @@
     const entry = performance.getEntriesByType?.('navigation')?.[0];
     navType = entry?.type || (performance.navigation?.type === 1 ? 'reload' : 'navigate');
   } catch (_) {}
-  const key = '__bornebyte_scroll:' + location.pathname + location.search;
+  const key = '__raghu_scroll:' + location.pathname + location.search;
   const save = () => {
     try { sessionStorage.setItem(key, JSON.stringify({ x: window.scrollX, y: window.scrollY })); } catch (_) {}
   };
@@ -34,7 +34,7 @@
 })();
 
 
-try{if(localStorage.getItem('Bornebyte-mode')==='dark'){document.documentElement.dataset.mode='dark';document.querySelector('meta[name=theme-color]')}}catch(e){}
+try{if(localStorage.getItem('raghu-mode')==='dark'){document.documentElement.dataset.mode='dark';document.querySelector('meta[name=theme-color]')}}catch(e){}
 
 
 /* modest devices get the same site with the heaviest per-frame effects eased off */
@@ -273,7 +273,7 @@ $('#navList').addEventListener('click', e => {
 });
 $('#navStart').addEventListener('click', () => closeNav(() => openModal()));
 // request modal
-const CONTACT_EMAIL = 'shahshubham1888@gmail.com';   // where project requests go
+const CONTACT_EMAIL = 'raghupanchal21@gmail.com';   // where project requests go
 document.querySelectorAll('[data-mail]').forEach(a => { a.href = 'mailto:' + CONTACT_EMAIL; a.textContent = CONTACT_EMAIL; });
 const modal = $('#modal'), form = $('#reqForm');
 let lastFocus = null;
@@ -335,7 +335,7 @@ bindHovers();
 
 /* ---------- Flip calendar: skills on an endless desk-calendar flip ---------- */
 (function flipCalendar(){
-  const SKILLS = ['Projects', 'Beyond Code', 'Certificates', 'My Story', 'Traveller'];
+  const SKILLS = ['Full-Stack Developer', 'Entrepreneur', 'AI Enthusiast', 'Product Builder', 'Software Engineer'];
   const HOLD = 1700, FLIP = 1250;
   const cal = $('#cal'); if (!cal) return;
   const body = $('.cal__body', cal), leaf = $('.cal__leaf', cal);
@@ -507,7 +507,7 @@ if (matchMedia('(max-width: 1023.98px), (hover: none)').matches){
 } else liquidReveal($('#fig'), $('#figCanvas'), COLOUR_SRC);
 
 /* ---------- Mode (light / dark) ---------- */
-const MODE_KEY = 'Bornebyte-mode';
+const MODE_KEY = 'raghu-mode';
 const themeMeta = document.querySelector('meta[name="theme-color"]');
 let modeAnimT = 0;
 function getMode(){ return root.dataset.mode === 'dark' ? 'dark' : 'light'; }

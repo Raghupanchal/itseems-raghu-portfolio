@@ -48,7 +48,7 @@
   },
   "assets": [
     {
-      "url": "https://therishithakor.com/app-developer/app-expense.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-expense.mp4",
       "method": "GET",
       "resourceType": "media",
       "status": 206,
@@ -59,7 +59,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-dice.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-dice.mp4",
       "method": "GET",
       "resourceType": "media",
       "status": 206,
@@ -70,7 +70,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-brick.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-brick.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -81,7 +81,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/fonts/onest-latin.woff2",
+      "url": "https://raghupanchal.vercel.app/fonts/onest-latin.woff2",
       "method": "GET",
       "resourceType": "font",
       "status": 200,
@@ -92,7 +92,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-expense.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-expense.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -103,7 +103,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-vault.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-vault.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -114,7 +114,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/icon-brick.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/icon-brick.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -125,7 +125,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/icon-192.png",
+      "url": "https://raghupanchal.vercel.app/icon-192.png",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -136,7 +136,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-dice.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-dice.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -147,7 +147,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/icon-vault.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/icon-vault.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -158,7 +158,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/icon-dice.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/icon-dice.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -169,7 +169,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/app-developer/icon-expense.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/icon-expense.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -185,31 +185,31 @@
   "sourceMapUrls": [],
   "failedRequests": [
     {
-      "url": "https://therishithakor.com/app-developer/app-brick.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-brick.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-vault.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-vault.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-dice.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-dice.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-vault.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-vault.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-vault.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-vault.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-brick.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-brick.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://therishithakor.com/app-developer/app-dice.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-dice.mp4",
       "resourceType": "media"
     }
   ]

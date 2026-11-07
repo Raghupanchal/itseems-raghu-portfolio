@@ -51,7 +51,7 @@
   },
   "assets": [
     {
-      "url": "https://therishithakor.com/web-developer/project-2.mp4",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-2.mp4",
       "method": "GET",
       "resourceType": "media",
       "status": 206,
@@ -62,7 +62,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/web-developer/2-tax-pnl.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/2-tax-pnl.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -73,7 +73,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/web-developer/3-capital-gains.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/3-capital-gains.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -84,7 +84,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/web-developer/1-zerodha.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/1-zerodha.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -95,7 +95,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/web-developer/5-sandbox-cost.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/5-sandbox-cost.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -106,7 +106,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/web-developer/4-quicko-cg.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/4-quicko-cg.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -117,7 +117,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/fonts/onest-latin.woff2",
+      "url": "https://raghupanchal.vercel.app/fonts/onest-latin.woff2",
       "method": "GET",
       "resourceType": "font",
       "status": 200,
@@ -128,7 +128,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/web-developer/project-2.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-2.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -139,7 +139,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/web-developer/project-4.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-4.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -150,7 +150,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -161,7 +161,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -172,7 +172,7 @@
       "failed": false
     },
     {
-      "url": "https://therishithakor.com/icon-192.png",
+      "url": "https://raghupanchal.vercel.app/icon-192.png",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -188,7 +188,7 @@
   "sourceMapUrls": [],
   "failedRequests": [
     {
-      "url": "https://therishithakor.com/web-developer/project-4.mp4",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-4.mp4",
       "resourceType": "media"
     }
   ]

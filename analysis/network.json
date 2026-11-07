@@ -51,7 +51,7 @@
   },
   "assets": [
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/20.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/20.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -62,7 +62,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/card/plate.webp",
+      "url": "https://raghupanchal.vercel.app/card/plate.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -73,7 +73,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/web-developer/1-zerodha.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/1-zerodha.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -84,7 +84,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/card/back.webp",
+      "url": "https://raghupanchal.vercel.app/card/back.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -95,7 +95,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/11.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/11.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -106,7 +106,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/13.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/13.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -117,7 +117,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-16.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-16.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -128,7 +128,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/06.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/06.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -139,7 +139,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/03.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/03.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -150,7 +150,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-brick.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-brick.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -161,7 +161,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-1.webp",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-1.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -172,7 +172,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-1.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-1.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -183,7 +183,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/22.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/22.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -194,7 +194,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/card/win_sub.webp",
+      "url": "https://raghupanchal.vercel.app/card/win_sub.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -205,7 +205,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/08.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/08.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -216,7 +216,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-3.webp",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-3.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -227,7 +227,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-left.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-left.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -238,7 +238,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-32.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-32.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -249,7 +249,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/fonts/onest-latin.woff2",
+      "url": "https://raghupanchal.vercel.app/fonts/onest-latin.woff2",
       "method": "GET",
       "resourceType": "font",
       "status": 200,
@@ -260,7 +260,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-2.webp",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-2.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -271,7 +271,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/17.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/17.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -282,7 +282,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/15.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/15.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -293,7 +293,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-26.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-26.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -304,7 +304,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-17.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-17.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -315,7 +315,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-31.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-31.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -326,7 +326,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-center.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-center.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -337,7 +337,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-expense.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-expense.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -348,7 +348,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/web-developer/project-2.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-2.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -359,7 +359,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-cliq.webp",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-cliq.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -370,7 +370,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/graphic-designer/qod-27.webp",
+      "url": "https://raghupanchal.vercel.app/graphic-designer/qod-27.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -381,7 +381,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/12.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/12.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -392,7 +392,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/18.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/18.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -403,7 +403,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/10.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/10.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -414,7 +414,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-vault.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-vault.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -425,7 +425,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/07.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/07.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -436,7 +436,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/21.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/21.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -447,7 +447,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/19.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/19.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -458,7 +458,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/25.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/25.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -469,7 +469,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/p/14.webp",
+      "url": "https://raghupanchal.vercel.app/Traveller/p/14.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -480,7 +480,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/icon-brick.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/icon-brick.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -491,7 +491,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -502,7 +502,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -513,7 +513,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -524,7 +524,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -535,7 +535,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -546,7 +546,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -557,7 +557,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -568,7 +568,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -579,7 +579,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -590,7 +590,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -601,7 +601,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/.netlify/scripts/hud?variant=public",
+      "url": "https://raghupanchal.vercel.app/.netlify/scripts/hud?variant=public",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -612,7 +612,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/icon-192.png",
+      "url": "https://raghupanchal.vercel.app/icon-192.png",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -623,7 +623,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/card/win_bg.webp",
+      "url": "https://raghupanchal.vercel.app/card/win_bg.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -634,7 +634,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/web-developer/project-4.webp",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-4.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -645,7 +645,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/icon-192.png",
+      "url": "https://raghupanchal.vercel.app/icon-192.png",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -656,7 +656,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/icon-192.png",
+      "url": "https://raghupanchal.vercel.app/icon-192.png",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -667,7 +667,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/icon-192.png",
+      "url": "https://raghupanchal.vercel.app/icon-192.png",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -678,7 +678,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/icon-192.png",
+      "url": "https://raghupanchal.vercel.app/icon-192.png",
       "method": "GET",
       "resourceType": "other",
       "status": 200,
@@ -689,7 +689,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/vendor/lenis.min.mjs",
+      "url": "https://raghupanchal.vercel.app/vendor/lenis.min.mjs",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -700,7 +700,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-dice.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-dice.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -711,7 +711,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/Traveller/photos.js",
+      "url": "https://raghupanchal.vercel.app/Traveller/photos.js",
       "method": "GET",
       "resourceType": "script",
       "status": 200,
@@ -722,7 +722,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/icon-vault.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/icon-vault.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -733,7 +733,7 @@
       "failed": false
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/icon-expense.webp",
+      "url": "https://raghupanchal.vercel.app/app-developer/icon-expense.webp",
       "method": "GET",
       "resourceType": "image",
       "status": 200,
@@ -749,43 +749,43 @@
   "sourceMapUrls": [],
   "failedRequests": [
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-expense.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-expense.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-vault.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-vault.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-brick.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-brick.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-1.mp4",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-1.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-3.mp4",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-3.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-2.mp4",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-2.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/web-developer/project-2.mp4",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-2.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/ui-ux-designer/ux-cliq.mp4",
+      "url": "https://raghupanchal.vercel.app/ui-ux-designer/ux-cliq.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/web-developer/project-4.mp4",
+      "url": "https://raghupanchal.vercel.app/web-developer/project-4.mp4",
       "resourceType": "media"
     },
     {
-      "url": "https://theBornebytethakor.com/app-developer/app-dice.mp4",
+      "url": "https://raghupanchal.vercel.app/app-developer/app-dice.mp4",
       "resourceType": "media"
     }
   ]

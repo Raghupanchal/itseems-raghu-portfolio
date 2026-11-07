@@ -1,7 +1,7 @@
 {
   "kind": "client-side-swap",
-  "from": "https://theBornebytethakor.com/home",
-  "to": "https://theBornebytethakor.com/web-developer/",
+  "from": "https://raghupanchal.vercel.app/home",
+  "to": "https://raghupanchal.vercel.app/web-developer/",
   "linkSelector": "ul.work > li > a",
   "linkText": "Web Developer",
   "durationMs": 3042,
@@ -52,7 +52,7 @@
   "samples": [
     {
       "atMs": 65,
-      "url": "https://theBornebytethakor.com/home",
+      "url": "https://raghupanchal.vercel.app/home",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -62,7 +62,7 @@
     },
     {
       "atMs": 100,
-      "url": "https://theBornebytethakor.com/home",
+      "url": "https://raghupanchal.vercel.app/home",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -72,7 +72,7 @@
     },
     {
       "atMs": 150,
-      "url": "https://theBornebytethakor.com/home",
+      "url": "https://raghupanchal.vercel.app/home",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -82,7 +82,7 @@
     },
     {
       "atMs": 204,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -92,7 +92,7 @@
     },
     {
       "atMs": 260,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -102,7 +102,7 @@
     },
     {
       "atMs": 300,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -112,7 +112,7 @@
     },
     {
       "atMs": 363,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -122,7 +122,7 @@
     },
     {
       "atMs": 402,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -132,7 +132,7 @@
     },
     {
       "atMs": 456,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -142,7 +142,7 @@
     },
     {
       "atMs": 510,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -152,7 +152,7 @@
     },
     {
       "atMs": 550,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -162,7 +162,7 @@
     },
     {
       "atMs": 600,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -172,7 +172,7 @@
     },
     {
       "atMs": 651,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -182,7 +182,7 @@
     },
     {
       "atMs": 702,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -192,7 +192,7 @@
     },
     {
       "atMs": 750,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -202,7 +202,7 @@
     },
     {
       "atMs": 800,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -212,7 +212,7 @@
     },
     {
       "atMs": 853,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -222,7 +222,7 @@
     },
     {
       "atMs": 900,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -232,7 +232,7 @@
     },
     {
       "atMs": 950,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -242,7 +242,7 @@
     },
     {
       "atMs": 1000,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -252,7 +252,7 @@
     },
     {
       "atMs": 1050,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -262,7 +262,7 @@
     },
     {
       "atMs": 1100,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -272,7 +272,7 @@
     },
     {
       "atMs": 1150,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -282,7 +282,7 @@
     },
     {
       "atMs": 1200,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -292,7 +292,7 @@
     },
     {
       "atMs": 1250,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -302,7 +302,7 @@
     },
     {
       "atMs": 1300,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -312,7 +312,7 @@
     },
     {
       "atMs": 1350,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -322,7 +322,7 @@
     },
     {
       "atMs": 1400,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -332,7 +332,7 @@
     },
     {
       "atMs": 1450,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -342,7 +342,7 @@
     },
     {
       "atMs": 1500,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -352,7 +352,7 @@
     },
     {
       "atMs": 1550,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -362,7 +362,7 @@
     },
     {
       "atMs": 1600,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -372,7 +372,7 @@
     },
     {
       "atMs": 1650,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -382,7 +382,7 @@
     },
     {
       "atMs": 1700,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -392,7 +392,7 @@
     },
     {
       "atMs": 1750,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -402,7 +402,7 @@
     },
     {
       "atMs": 1800,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -412,7 +412,7 @@
     },
     {
       "atMs": 1850,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -422,7 +422,7 @@
     },
     {
       "atMs": 1903,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -432,7 +432,7 @@
     },
     {
       "atMs": 1950,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -442,7 +442,7 @@
     },
     {
       "atMs": 2000,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -452,7 +452,7 @@
     },
     {
       "atMs": 2050,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -462,7 +462,7 @@
     },
     {
       "atMs": 2100,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -472,7 +472,7 @@
     },
     {
       "atMs": 2150,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -482,7 +482,7 @@
     },
     {
       "atMs": 2200,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -492,7 +492,7 @@
     },
     {
       "atMs": 2250,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -502,7 +502,7 @@
     },
     {
       "atMs": 2300,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -512,7 +512,7 @@
     },
     {
       "atMs": 2350,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -522,7 +522,7 @@
     },
     {
       "atMs": 2400,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -532,7 +532,7 @@
     },
     {
       "atMs": 2450,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -542,7 +542,7 @@
     },
     {
       "atMs": 2504,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -552,7 +552,7 @@
     },
     {
       "atMs": 2550,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -562,7 +562,7 @@
     },
     {
       "atMs": 2600,
-      "url": "https://theBornebytethakor.com/work",
+      "url": "https://raghupanchal.vercel.app/work",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -572,7 +572,7 @@
     },
     {
       "atMs": 2650,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0",
@@ -582,7 +582,7 @@
     },
     {
       "atMs": 2700,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0.0500553",
@@ -592,7 +592,7 @@
     },
     {
       "atMs": 2750,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0.444485",
@@ -602,7 +602,7 @@
     },
     {
       "atMs": 2800,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0.767009",
@@ -612,7 +612,7 @@
     },
     {
       "atMs": 2850,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0.924759",
@@ -622,7 +622,7 @@
     },
     {
       "atMs": 2900,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "0.975557",
@@ -632,7 +632,7 @@
     },
     {
       "atMs": 2950,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",
@@ -642,7 +642,7 @@
     },
     {
       "atMs": 3000,
-      "url": "https://theBornebytethakor.com/web-developer/",
+      "url": "https://raghupanchal.vercel.app/web-developer/",
       "bodyChildren": 24,
       "overlay": {
         "opacity": "1",

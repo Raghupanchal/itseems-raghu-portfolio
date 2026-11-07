@@ -1,7 +1,7 @@
 {
   "kind": "hard-navigation",
-  "from": "https://therishithakor.com/web-developer/",
-  "to": "https://therishithakor.com/work",
+  "from": "https://raghupanchal.vercel.app/web-developer/",
+  "to": "https://raghupanchal.vercel.app/work",
   "linkSelector": "header#rn > div.rn__in > a.backd",
   "linkText": "Back to the doors",
   "durationMs": 3153,
