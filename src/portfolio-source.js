@@ -64,13 +64,11 @@ export const PAGE_BODY_HTML = `
       <div class="fig" id="fig">
         <img id="figBase" src="assets/images/Confident%20Indian%20Man%20in%20Navy%20Suit.png" alt="" decoding="async" fetchpriority="high" aria-hidden="true">
         <canvas id="figCanvas" aria-hidden="true"></canvas>
-        <button class="fig__card" id="holoOpen" aria-haspopup="dialog" aria-controls="holo">My ability card</button>
-      </div>
+        </div>
     </div>
 
     <div class="shell hero__content">
       <div class="hero__left">
-        <p class="eyebrow rv" style="--d:200ms">Independent Freelancer</p>
         <h1 class="h1">
           <span class="sr-only">Hi, I'm Raghu Panchal. I am an AI Full Stack Developer based in Bengaluru, Karnataka, India.</span>
           <span aria-hidden="true">
