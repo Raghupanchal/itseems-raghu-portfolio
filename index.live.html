@@ -1227,8 +1227,21 @@ self.Worker=function(u,o){var a=alt(u)||u,abs=new URL(a,location.href).href;var 
       <button class="sf__ghost" data-go="works">See my work</button>
     </div>
     <div class="sf__cols">
-      <div><h3>Work</h3><ul class="work"><li><a href="projects/" data-door="0">Projects</a></li><li><a href="beyond-code/" data-door="1">Beyond Code</a></li><li><a href="certificates/" data-door="2">Certificates</a></li><li><a href="my-story/" data-door="3">My Story</a></li><li><a href="Traveller/" data-door="4">Traveller</a></li></ul></div>
-      <div><h3>Navigate</h3><ul><li><a href="./" data-go="home">Home</a></li><li><a href="./#about" data-go="about">My story</a></li><li><button data-contact>Contact</button></li></ul></div>
+      <div><h3>Navigation</h3><ul class="work">
+        <li><button data-go="home">Home</button></li>
+        <li><button data-door="0">Projects</button></li>
+        <li><button data-door="1">Beyond Code</button></li>
+        <li><button data-door="2">Certificates</button></li>
+        <li><button data-go="about">My Story</button></li>
+        <li><button data-contact>Contact</button></li>
+      </ul></div>
+      <div><h3>Roles &amp; Focus</h3><ul>
+        <li class="st">Full-Stack Developer</li>
+        <li class="st">Entrepreneur</li>
+        <li class="st">AI Enthusiast</li>
+        <li class="st">Product Builder</li>
+        <li class="st">Software Engineer</li>
+      </ul></div>
       <div><h3>Status</h3><ul><li class="st">Local time <span data-ftime>—</span></li></ul></div>
     </div>
     <div class="sf__bot"><span>© <span data-fyear>2026</span> Raghu Panchal. Designed and built by Raghu Panchal.</span><span class="sf__legal"><a href="legal/" target="_top">Privacy &amp; credits</a></span><button data-go="home">Back to top ↑</button></div>
@@ -2240,7 +2253,7 @@ const toggleMode = () => setMode(getMode() === 'dark' ? 'light' : 'dark');
   // what each door holds: shown beside the door on hover (desktop), under the swipe hint on phones
   const INFO = [   // [headline, sub-headline, body]
     ['Projects', 'End to end, from sketch to live site', ['Discovery & planning', 'visual design', 'Front-end & back-end development', 'Technical SEO & performance', 'Analytics, launch & ongoing support']],
-    ['Beyond Code', 'From the first idea to the app store', ['Product scoping & user flows', 'Interface design', 'Cross-platform development', 'Device testing & store launch', 'Analytics, monitoring & updates']],
+    ['Beyond Code', 'Passions, habits and daily rituals', ['Chai & quiet mornings', 'Reading Kannada stories & writing', 'Culinary craft with music', 'Slow days, good sleep & rest', 'Fuelling creativity beyond code']],
     ['Certificates', 'Research first, pixels second', ['Brand & business needs analysis', 'User & competitor research', 'Information architecture & flows', 'Wireframes & high-fidelity UI', 'Interactive prototypes & testing']],
     ['My Story', 'Visual content true to the brand', ['Brand, audience & tone analysis', 'Built around brand guidelines', 'Posters & social media creatives', 'Strong type & clear hierarchy', 'Every format each platform needs']],
     ['Traveller', 'The eye behind every layout', ['Architecture, concerts & sport', 'Nature & product', 'Light & composition first']],

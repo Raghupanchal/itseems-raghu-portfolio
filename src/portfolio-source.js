@@ -249,8 +249,21 @@ export const PAGE_BODY_HTML = `
       <button class="sf__ghost" data-go="works">See my work</button>
     </div>
     <div class="sf__cols">
-      <div><h3>Work</h3><ul class="work"><li><a href="projects/" data-door="0">Projects</a></li><li><a href="beyond-code/" data-door="1">Beyond Code</a></li><li><a href="certificates/" data-door="2">Certificates</a></li><li><a href="my-story/" data-door="3">My Story</a></li><li><a href="Traveller/" data-door="4">Traveller</a></li></ul></div>
-      <div><h3>Navigate</h3><ul><li><a href="./" data-go="home">Home</a></li><li><a href="./#about" data-go="about">My story</a></li><li><button data-contact>Contact</button></li></ul></div>
+      <div><h3>Navigation</h3><ul class="work">
+        <li><button data-go="home">Home</button></li>
+        <li><button data-door="0">Projects</button></li>
+        <li><button data-door="1">Beyond Code</button></li>
+        <li><button data-door="2">Certificates</button></li>
+        <li><button data-go="about">My Story</button></li>
+        <li><button data-contact>Contact</button></li>
+      </ul></div>
+      <div><h3>Roles &amp; Focus</h3><ul>
+        <li class="st">Full-Stack Developer</li>
+        <li class="st">Entrepreneur</li>
+        <li class="st">AI Enthusiast</li>
+        <li class="st">Product Builder</li>
+        <li class="st">Software Engineer</li>
+      </ul></div>
       <div><h3>Status</h3><ul><li class="st">Local time <span data-ftime>—</span></li></ul></div>
     </div>
     <div class="sf__bot"><span>© <span data-fyear>2026</span> Raghu Panchal. Designed and built by Raghu Panchal.</span><span class="sf__legal"><a href="legal/" target="_top">Privacy &amp; credits</a></span><button data-go="home">Back to top ↑</button></div>
@@ -1262,7 +1275,7 @@ const toggleMode = () => setMode(getMode() === 'dark' ? 'light' : 'dark');
   // what each door holds: shown beside the door on hover (desktop), under the swipe hint on phones
   const INFO = [   // [headline, sub-headline, body]
     ['Projects', 'Vyomma · KLABO · NeuroCampus', ['Vyomma e-commerce storefront', 'KLABO multi-vendor marketplace', 'neuroCampus ERP and management platform', 'Responsive product UX', 'Brand-first design']],
-    ['Beyond Code', 'Platform design and product thinking', ['Marketplace flows', 'Role-based dashboards', 'Seller and admin systems', 'Custom order experiences', 'AI-enabled operations']],
+    ['Beyond Code', 'Passions, habits and daily rituals', ['Chai & quiet mornings', 'Reading Kannada stories & writing', 'Culinary craft with music', 'Slow days, good sleep & rest', 'Fuelling creativity beyond code']],
     ['Certificates', 'Internships, hackathons and AI credentials', ['Software development internship', 'TJhackIT 2nd place award', 'Hack-A-City AI/ML hackathon', 'Future of Tech: AI & LLMs', 'Infosys AI & Python certifications', 'Android App Dev using GenAI']],
     ['My Story', 'Built around product, people and real workflows', ['Audience and business context first', 'Design systems and flow clarity', 'Scalable frontend and backend thinking', 'Conversion-focused product detail', 'Every screen built to support intent']],
     ['Traveller', 'The eye behind every layout', ['Architecture, concerts & sport', 'Nature & product', 'Light & composition first']],
@@ -2951,7 +2964,7 @@ const toggleMode = () => setMode(getMode() === 'dark' ? 'light' : 'dark');
   // what each door holds: shown beside the door on hover (desktop), under the swipe hint on phones
   const INFO = [   // [headline, sub-headline, body]
     ['Projects', 'Vyomma · KLABO · NeuroCampus', ['Vyomma e-commerce storefront', 'KLABO multi-vendor marketplace', 'neuroCampus ERP and management platform', 'Responsive product UX', 'Brand-first design']],
-    ['Beyond Code', 'Platform design and product thinking', ['Marketplace flows', 'Role-based dashboards', 'Seller and admin systems', 'Custom order experiences', 'AI-enabled operations']],
+    ['Beyond Code', 'Passions, habits and daily rituals', ['Chai & quiet mornings', 'Reading Kannada stories & writing', 'Culinary craft with music', 'Slow days, good sleep & rest', 'Fuelling creativity beyond code']],
     ['Certificates', 'Research, planning and visual direction', ['Brand & business needs analysis', 'User & competitor research', 'Information architecture & flows', 'Wireframes & high-fidelity UI', 'Interactive prototypes & testing']],
     ['My Story', 'Built around product, people and real workflows', ['Audience and business context first', 'Design systems and flow clarity', 'Scalable frontend and backend thinking', 'Conversion-focused product detail', 'Every screen built to support intent']],
     ['Traveller', 'The eye behind every layout', ['Architecture, concerts & sport', 'Nature & product', 'Light & composition first']],

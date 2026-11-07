@@ -36,7 +36,7 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Beyond Code — Raghu Panchal</title>
+<title>Beyond The Code — Raghu Panchal</title>
 <link rel="preload" href="assets/fonts/4db55ed39c-onest-latin.woff2" as="font" type="font/woff2">
 <style>@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:100 900;src:url(../fonts/onest-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:100 900;src:url(../fonts/onest-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}</style>
 
@@ -370,6 +370,65 @@ self.fetch=function(input,init){var u=typeof input==='string'?input:(input&&inpu
 var W=self.Worker;var bootTemplate="var M={\"app-expense.mp4\":\"assets/media/3a61c453d1-app-expense.mp4\",\"app-developer/app-expense.mp4\":\"assets/media/3a61c453d1-app-expense.mp4\",\"app-dice.mp4\":\"assets/media/8c35ef514f-app-dice.mp4\",\"app-developer/app-dice.mp4\":\"assets/media/8c35ef514f-app-dice.mp4\",\"app-brick.webp\":\"assets/images/5b0830eef6-app-brick.webp\",\"app-developer/app-brick.webp\":\"assets/images/5b0830eef6-app-brick.webp\",\"onest-latin.woff2\":\"assets/fonts/4db55ed39c-onest-latin.woff2\",\"fonts/onest-latin.woff2\":\"assets/fonts/4db55ed39c-onest-latin.woff2\",\"app-expense.webp\":\"assets/images/3bab4de2cf-app-expense.webp\",\"app-developer/app-expense.webp\":\"assets/images/3bab4de2cf-app-expense.webp\",\"app-vault.webp\":\"assets/images/96627dd6db-app-vault.webp\",\"app-developer/app-vault.webp\":\"assets/images/96627dd6db-app-vault.webp\",\"icon-brick.webp\":\"assets/images/632f05aa89-icon-brick.webp\",\"app-developer/icon-brick.webp\":\"assets/images/632f05aa89-icon-brick.webp\",\"icon-192.png\":\"assets/images/1fb19b3185-icon-192.png\",\"app-dice.webp\":\"assets/images/ab419f6a4c-app-dice.webp\",\"app-developer/app-dice.webp\":\"assets/images/ab419f6a4c-app-dice.webp\",\"icon-vault.webp\":\"assets/images/0c8fa292b1-icon-vault.webp\",\"app-developer/icon-vault.webp\":\"assets/images/0c8fa292b1-icon-vault.webp\",\"icon-dice.webp\":\"assets/images/2a9dead616-icon-dice.webp\",\"app-developer/icon-dice.webp\":\"assets/images/2a9dead616-icon-dice.webp\",\"icon-expense.webp\":\"assets/images/42f632f617-icon-expense.webp\",\"app-developer/icon-expense.webp\":\"assets/images/42f632f617-icon-expense.webp\",\"app-vault.mp4\":\"assets/media/c3ec15be64-app-vault.mp4\",\"app-developer/app-vault.mp4\":\"assets/media/c3ec15be64-app-vault.mp4\",\"app-brick.mp4\":\"assets/media/27892ebb9e-app-brick.mp4\",\"app-developer/app-brick.mp4\":\"assets/media/27892ebb9e-app-brick.mp4\",\"app-developer\":\"assets/other/8f640a0991-asset.html\",\"favicon.ico\":\"assets/images/6bd58decad-favicon.ico\",\"apple-touch-icon.png\":\"assets/images/d5e0e4f20c-apple-touch-icon.png\",\"onest-latin-ext.woff2\":\"assets/fonts/bf623844de-onest-latin-ext.woff2\",\"fonts/onest-latin-ext.woff2\":\"assets/fonts/bf623844de-onest-latin-ext.woff2\"},B={\"3a61c453d1-app-expense.mp4\":\"assets/media/3a61c453d1-app-expense.mp4\",\"8c35ef514f-app-dice.mp4\":\"assets/media/8c35ef514f-app-dice.mp4\",\"5b0830eef6-app-brick.webp\":\"assets/images/5b0830eef6-app-brick.webp\",\"4db55ed39c-onest-latin.woff2\":\"assets/fonts/4db55ed39c-onest-latin.woff2\",\"3bab4de2cf-app-expense.webp\":\"assets/images/3bab4de2cf-app-expense.webp\",\"96627dd6db-app-vault.webp\":\"assets/images/96627dd6db-app-vault.webp\",\"632f05aa89-icon-brick.webp\":\"assets/images/632f05aa89-icon-brick.webp\",\"1fb19b3185-icon-192.png\":\"assets/images/1fb19b3185-icon-192.png\",\"ab419f6a4c-app-dice.webp\":\"assets/images/ab419f6a4c-app-dice.webp\",\"0c8fa292b1-icon-vault.webp\":\"assets/images/0c8fa292b1-icon-vault.webp\",\"2a9dead616-icon-dice.webp\":\"assets/images/2a9dead616-icon-dice.webp\",\"42f632f617-icon-expense.webp\":\"assets/images/42f632f617-icon-expense.webp\",\"c3ec15be64-app-vault.mp4\":\"assets/media/c3ec15be64-app-vault.mp4\",\"27892ebb9e-app-brick.mp4\":\"assets/media/27892ebb9e-app-brick.mp4\",\"8f640a0991-asset.html\":\"assets/other/8f640a0991-asset.html\",\"6bd58decad-favicon.ico\":\"assets/images/6bd58decad-favicon.ico\",\"d5e0e4f20c-apple-touch-icon.png\":\"assets/images/d5e0e4f20c-apple-touch-icon.png\",\"bf623844de-onest-latin-ext.woff2\":\"assets/fonts/bf623844de-onest-latin-ext.woff2\"},BASE=\"BASE_PLACEHOLDER\";\nfunction alt(u){try{var p=new URL(u,BASE).pathname.split('/').filter(Boolean);var last=p[p.length-1];if(last&&B[last])return new URL(B[last],BASE).href;for(var n=1;n<=p.length;n++){var s=p.slice(p.length-n).join('/');if(M[s])return new URL(M[s],BASE).href;}}catch(e){}return null;}\nvar PH='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=';var f=self.fetch;\nfunction ph(){return f(PH);}\nfunction isImg(u){return /\\.(png|jpe?g|webp|gif)(\\?|#|$)/i.test(u);}\nself.fetch=function(input,init){var u=typeof input==='string'?input:(input&&input.url);return f(input,init).then(function(r){if(r.status===404&&u){var a=alt(u);if(a&&a!==u)return f(a,init).then(function(r2){return r2.status===404&&isImg(u)?ph():r2;});if(isImg(u))return ph();}return r;},function(err){if(u){var a=alt(u);if(a&&a!==u)return f(a,init).then(function(r2){return r2.status===404&&isImg(u)?ph():r2;}).catch(function(){if(isImg(u))return ph();throw err;});if(isImg(u))return ph();}throw err;});};\nimportScripts('REAL_URL_PLACEHOLDER');";
 self.Worker=function(u,o){var a=alt(u)||u,abs=new URL(a,location.href).href;var boot=bootTemplate.replace('"BASE_PLACEHOLDER"',JSON.stringify(location.href)).replace('REAL_URL_PLACEHOLDER',abs);var blob=new Blob([boot],{type:'text/javascript'});return new W(URL.createObjectURL(blob),o);};self.Worker.prototype=W.prototype;
 })();</script><style>#nl-badge-frame,#nl-hud-frame,[id*="nl-badge"],[id*="nl-hud"],.netlify-badge{display:none!important;opacity:0!important;pointer-events:none!important;visibility:hidden!important;width:0!important;height:0!important;clip:rect(0,0,0,0)!important}</style>
+
+<style id="beyond-extra">
+.phone__art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: calc(var(--sw) * .16) calc(var(--sw) * .05) calc(var(--sw) * .13);
+  box-sizing: border-box;
+  display: block;
+  z-index: 1;
+  filter: drop-shadow(0 14px 22px rgba(0,0,0,0.38));
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card:hover .phone__art {
+  transform: translateY(-8px) scale(1.05);
+}
+.phone__pill {
+  position: absolute;
+  bottom: calc(var(--sw) * .06);
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(var(--sw) * .86);
+  padding: 8px 12px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.18);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  box-shadow: 0 8px 20px -4px rgba(0,0,0,0.3);
+}
+.phone__pill-title {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.phone__pill-tag {
+  color: rgba(255,255,255,0.9);
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.25);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+</style>
+
 </head>
 <body>
 <div class="glow" aria-hidden="true"></div>
@@ -392,98 +451,115 @@ self.Worker=function(u,o){var a=alt(u)||u,abs=new URL(a,location.href).href;var 
 <main class="wrap">
   <div class="top"><a class="chip" href="../#works" tabindex="-1" style="visibility: hidden;">← Back to the doors</a></div>
   <section class="intro">
-    <h1>Beyond Code</h1>
-    <div><p>Mobile applications, native experiences and creative technical builds: from GenAI integrations and Kotlin architecture to intuitive mobile interfaces.</p></div>
+    <h1>Beyond The Code</h1>
+    <div><p>A glimpse into the passions, habits, and daily rituals that fuel my creativity &amp; energy.</p></div>
   </section>
-  <section class="stack" id="stack" aria-label="Projects"><!--pre-->
-  <article class="card seen" style="--i: 0; transform: scale(0.94);" aria-labelledby="p0">
+  <section class="stack" id="stack" aria-label="Beyond The Code"><!--pre-->
+  <article class="card seen" style="--i:0" aria-labelledby="p0">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="assets/images/42f632f617-icon-expense.webp" alt="" width="58" height="58" decoding="async" loading="eager"><p class="card__meta"><span>iOS app · Finance</span></p></div>
-        <h2 id="p0">Expense Tracker</h2>
-        <p class="sub">Personal finance, organised into books</p>
-        <p class="desc">Spending is grouped into expense books such as Personal, Travel and Business, each with its own budget. Add income or an expense in a couple of taps, see the balance, spend and budget used at a glance, and search across every entry.</p>
-        <ul class="tags"><li>Budgets</li><li>Expense books</li><li>Shortcuts &amp; Back Tap</li></ul>
-        <span class="note">Screen recording on iPhone</span>
+        <div class="app"><img src="assets/images/beyond-tea.png" alt="" width="58" height="58" decoding="async" loading="eager"><p class="card__meta"><span>Daily Ritual · Morning Focus</span></p></div>
+        <h2 id="p0">Chai</h2>
+        <p class="sub">A little chai, a little quiet, and time to gather my thoughts.</p>
+        <p class="desc">Some mornings don't need a perfect plan. Just a warm cup of chai, a quiet moment, and a little space to think. Before the notifications, meetings, and code begin, I like to slow down and figure out what really matters for the day.</p>
+        <span class="note">A quiet moment · Finding what really matters before the code begins</span>
       </div>
       <div class="stage" aria-hidden="true">
         <div class="phone"><div class="phone__body">
           <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen vid" style="background-image: url(&quot;data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQBQCdASoWADAAPrFOoEunJCMhqqgA4BYJaQAAPY/9OjphkIk8XGYA6eEFf3dAe9tN3gAA/varJVrewwzMIzTFLawEO29Fx1JsHinvtEM2zUFTPr13RVQd9uhJzNhx6bwOr+5hOwzYEeeMEGNNChwNt7zrkEgAAAA=&quot;); --ar: 590 / 1278;" data-sk="1">
-            <video muted="" loop="" playsinline="" preload="metadata" poster="assets/images/3bab4de2cf-app-expense.webp" src="assets/media/3a61c453d1-app-expense.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"></rect><rect x="5" y="5.5" width="3" height="6.5" rx="1"></rect><rect x="10" y="3" width="3" height="9" rx="1"></rect><rect x="15" y="0" width="3" height="12" rx="1"></rect></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"></path></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"></rect><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"></rect><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"></path></svg></span></div><div class="island"></div>
+          <div class="phone__screen" style="background:radial-gradient(circle at 50% 35%, #F59E0B 0%, #D97706 40%, #78350F 100%)">
+            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div>
+            <div class="island"></div>
+            <img src="assets/images/beyond-tea.png" alt="Chai & Slow Mornings" class="phone__art" loading="lazy">
+            <div class="phone__pill">
+              <span class="phone__pill-title">Chai</span>
+              <span class="phone__pill-tag">A Little Quiet</span>
+            </div>
           </div>
         </div></div>
       </div>
     </div>
-    <div class="card__dim" style="opacity: 0.28;"></div>
+    <div class="card__dim"></div>
   </article>
-  <article class="card flip seen" style="--i: 1; transform: scale(0.94);" aria-labelledby="p1">
+  <article class="card seen flip" style="--i:1" aria-labelledby="p1">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="assets/images/0c8fa292b1-icon-vault.webp" alt="" width="58" height="58" decoding="async" loading="eager"><p class="card__meta"><span>iOS app · Privacy</span></p></div>
-        <h2 id="p1">Secret Vault</h2>
-        <p class="sub">A photo vault disguised as a calculator</p>
-        <p class="desc">It looks and works like an ordinary calculator. Type your secret equation and double-tap % to open a private vault: photos you import are hidden there and can be removed from your photo library.</p>
-        <ul class="tags"><li>Privacy</li><li>Equation passcode</li><li>Photos access</li></ul>
-        <span class="note">Recorded on iPhone with sample photos</span>
+        <div class="app"><img src="assets/images/beyond-reading.png" alt="" width="58" height="58" decoding="async" loading="lazy"><p class="card__meta"><span>Lifelong Pursuit · Curiosity</span></p></div>
+        <h2 id="p1">Reading &amp; Writing</h2>
+        <p class="sub">Getting lost in stories, thoughts, and sometimes my own words.</p>
+        <p class="desc">I enjoy reading Kannada novels and stories, especially the kind that stay with me long after I've finished them. Sometimes, a thought or feeling inspires me to write something down too. Reading and writing give me a quiet space to think, reflect, and see things differently. One thought that stays with me is — “ಇರುವುದೊಂದೇ ಬದುಕು, ಬದುಕಿಬಿಡಿ.”</p>
+        <span class="note">Reflections · “ಇರುವುದೊಂದೇ ಬದುಕು, ಬದುಕಿಬಿಡಿ.”</span>
       </div>
       <div class="stage" aria-hidden="true">
         <div class="phone"><div class="phone__body">
           <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen vid" style="background-image: url(&quot;data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBgCdASoWADAAPpVClkmlpCIhOrzIALASiWkA0YAs2W94CsvMnPEjrZH9/8puNKKooDEk+IeuVpgAAP7y2dGMKDtWIkcS87pXM5c73fkTCwUF+DRPBtVySJ2nAkgXYpkqGTouykU4hp5cR55AAA==&quot;); --ar: 590 / 1278;" data-sk="1">
-            <video muted="" loop="" playsinline="" preload="metadata" poster="assets/images/96627dd6db-app-vault.webp" src="assets/media/c3ec15be64-app-vault.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"></rect><rect x="5" y="5.5" width="3" height="6.5" rx="1"></rect><rect x="10" y="3" width="3" height="9" rx="1"></rect><rect x="15" y="0" width="3" height="12" rx="1"></rect></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"></path></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"></rect><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"></rect><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"></path></svg></span></div><div class="island"></div>
+          <div class="phone__screen" style="background:radial-gradient(circle at 50% 35%, #10B981 0%, #059669 40%, #064E3B 100%)">
+            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div>
+            <div class="island"></div>
+            <img src="assets/images/beyond-reading.png" alt="Reading & Mind Expansion" class="phone__art" loading="lazy">
+            <div class="phone__pill">
+              <span class="phone__pill-title">Reading &amp; Writing</span>
+              <span class="phone__pill-tag">Stories &amp; Thoughts</span>
+            </div>
           </div>
         </div></div>
       </div>
     </div>
-    <div class="card__dim" style="opacity: 0.28;"></div>
+    <div class="card__dim"></div>
   </article>
-  <article class="card seen" style="--i: 2; transform: scale(0.94);" aria-labelledby="p2">
+  <article class="card seen" style="--i:2" aria-labelledby="p2">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="assets/images/632f05aa89-icon-brick.webp" alt="" width="58" height="58" decoding="async" loading="eager"><p class="card__meta"><span>iOS game · Arcade</span></p></div>
-        <h2 id="p2">Brick Breaker</h2>
-        <p class="sub">Arcade game with pixel-art levels</p>
-        <p class="desc">A fast arcade brick breaker: pixel-art levels, multi-ball power-ups that flood the screen, combos and a live score, with a pause menu and level-by-level progression.</p>
-        <ul class="tags"><li>Game design</li><li>Power-ups</li><li>Level design</li></ul>
-        <span class="note">Gameplay recorded on iPhone</span>
+        <div class="app"><img src="assets/images/beyond-cooking.png" alt="" width="58" height="58" decoding="async" loading="lazy"><p class="card__meta"><span>Creative Passion · Experimentation</span></p></div>
+        <h2 id="p2">Culinary Craft &amp; Cooking</h2>
+        <p class="sub">Blending flavors, patience and joy with headphones on</p>
+        <p class="desc">Put on the headphones, turn up favorite melodies, and step into the kitchen. Cooking is iterative engineering in real life — taking raw ingredients, experimenting with spices, and perfecting each dish with patience and passion.</p>
+        <span class="note">Creative flow · Hands-on sensory crafting</span>
       </div>
       <div class="stage" aria-hidden="true">
         <div class="phone"><div class="phone__body">
           <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen vid" style="background-image: url(&quot;data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAwBgCdASoWADAAPrFGnEmnI6KhNVQIAOAWCWQAx+Q5X7Fb2+drW7FLsX3d1xUlIStpj0XKMRUoP52gAP78ptUdXrARGOtskF8MifbUiH/I2pV9htfUcRcLEZsUP3eAJrueLZGNJKnWpRjMHdgv1VjyOxdpHawEbcckCq9I27rno3Us0eHZpDW7GUyMBuEKNr8UHt6C+GiJtKWqjfSRTnZKBO1LxxDHHMli2UNE0O2QAA==&quot;); --ar: 590 / 1278;" data-sk="1">
-            <video muted="" loop="" playsinline="" preload="metadata" poster="assets/images/5b0830eef6-app-brick.webp" src="assets/media/27892ebb9e-app-brick.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"></rect><rect x="5" y="5.5" width="3" height="6.5" rx="1"></rect><rect x="10" y="3" width="3" height="9" rx="1"></rect><rect x="15" y="0" width="3" height="12" rx="1"></rect></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"></path></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"></rect><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"></rect><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"></path></svg></span></div><div class="island"></div>
+          <div class="phone__screen" style="background:radial-gradient(circle at 50% 35%, #F43F5E 0%, #E11D48 40%, #881337 100%)">
+            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div>
+            <div class="island"></div>
+            <img src="assets/images/beyond-cooking.png" alt="Culinary Craft & Cooking" class="phone__art" loading="lazy">
+            <div class="phone__pill">
+              <span class="phone__pill-title">Culinary Craft</span>
+              <span class="phone__pill-tag">Creative Flow</span>
+            </div>
           </div>
         </div></div>
       </div>
     </div>
-    <div class="card__dim" style="opacity: 0.28;"></div>
+    <div class="card__dim"></div>
   </article>
-  <article class="card flip seen" style="--i:3" aria-labelledby="p3">
+  <article class="card seen flip" style="--i:3" aria-labelledby="p3">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="assets/images/2a9dead616-icon-dice.webp" alt="" width="58" height="58" decoding="async" loading="eager"><p class="card__meta"><span>iOS app · Utility</span></p></div>
-        <h2 id="p3">Dice</h2>
-        <p class="sub">A colourful dice roller</p>
-        <p class="desc">Roll several dice at once: each die fills its own block of colour and the total updates instantly, so a board-game night needs nothing but a phone.</p>
-        <ul class="tags"><li>Utility</li><li>Minimal UI</li><li>Tap to roll</li></ul>
-        <span class="note">Screen recording on iPhone</span>
+        <div class="app"><img src="assets/images/beyond-sleep.png" alt="" width="58" height="58" decoding="async" loading="lazy"><p class="card__meta"><span>Health &amp; Energy · Recharging</span></p></div>
+        <h2 id="p3">Slow Days &amp; Rest</h2>
+        <p class="sub">Taking a break, switching off, and simply doing nothing sometimes.</p>
+        <p class="desc">Not every moment has to be productive. I value a good night's sleep, quiet time, and those slow days that help me reset and come back feeling fresh.</p>
+        <span class="note">Recharge · Not every moment has to be productive</span>
       </div>
       <div class="stage" aria-hidden="true">
         <div class="phone"><div class="phone__body">
           <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen vid" style="background-image: url(&quot;data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQBACdASoWADAAPqlGnkmmJCMhMAqowBUJYgCDMfkgGEg4+mAlEH6d3GNpc0AA/rhzRmSQDP+chJNr/d1jZAbXbk4ynfkvNYiJnwJ5T43ypu3InS8X7SMq5QkGluq3yOIvkG7PRYsaKUYAAAA=&quot;); --ar: 590 / 1278;" data-sk="1">
-            <video muted="" loop="" playsinline="" preload="metadata" poster="assets/images/ab419f6a4c-app-dice.webp" src="assets/media/8c35ef514f-app-dice.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"></rect><rect x="5" y="5.5" width="3" height="6.5" rx="1"></rect><rect x="10" y="3" width="3" height="9" rx="1"></rect><rect x="15" y="0" width="3" height="12" rx="1"></rect></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"></path></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"></rect><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"></rect><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"></path></svg></span></div><div class="island"></div>
+          <div class="phone__screen" style="background:radial-gradient(circle at 50% 35%, #8B5CF6 0%, #7C3AED 40%, #4C1D95 100%)">
+            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div>
+            <div class="island"></div>
+            <img src="assets/images/beyond-sleep.png" alt="Rest, Recovery & Sleep" class="phone__art" loading="lazy">
+            <div class="phone__pill">
+              <span class="phone__pill-title">Deep Recovery</span>
+              <span class="phone__pill-tag">Rest & Reset</span>
+            </div>
           </div>
         </div></div>
       </div>
     </div>
-    <div class="card__dim" style="opacity: 0;"></div>
-  </article><!--/pre--></section>
+    <div class="card__dim"></div>
+  </article>
+<!--/pre--></section>
 </main>
 <div class="sfw" style="--above: rgb(232, 228, 224);">
 <footer class="sf" id="contact-footer" aria-labelledby="sfTitle">
@@ -496,9 +572,22 @@ self.Worker=function(u,o){var a=alt(u)||u,abs=new URL(a,location.href).href;var 
       
     </div>
     <div class="sf__cols">
-      <div><h3>Work</h3><ul class="work"><li><a href="../web-developer/" data-nav="door:0">Web Development</a></li><li><a href="../app-developer/" data-nav="door:1">App Developer</a></li><li><a href="../ui-ux-designer/" data-nav="door:2">DevOpsDesign</a></li><li><a href="../graphic-designer/" data-nav="door:3">BlockChain Engineer</a></li><li><a href="../photographer/" data-nav="door:4">Photography</a></li></ul></div>
-      <div><h3>Navigate</h3><ul><li><a href="../" data-nav="home">Home</a></li><li><a href="../#about" data-nav="about">My story</a></li><li><button data-nav="contact">Contact</button></li></ul></div>
-      <div><h3>Status</h3><ul><li class="st">Local time <span data-ftime="">6:54am</span></li></ul></div>
+      <div><h3>Navigation</h3><ul class="work">
+        <li><button data-nav="home">Home</button></li>
+        <li><button data-nav="door:0">Projects</button></li>
+        <li><button data-nav="door:1">Beyond Code</button></li>
+        <li><button data-nav="door:2">Certificates</button></li>
+        <li><button data-nav="about">My Story</button></li>
+        <li><button data-nav="contact">Contact</button></li>
+      </ul></div>
+      <div><h3>Roles &amp; Focus</h3><ul>
+        <li class="st">Full-Stack Developer</li>
+        <li class="st">Entrepreneur</li>
+        <li class="st">AI Enthusiast</li>
+        <li class="st">Product Builder</li>
+        <li class="st">Software Engineer</li>
+      </ul></div>
+      <div><h3>Status</h3><ul><li class="st">Local time <span data-ftime="">—</span></li></ul></div>
     </div>
     <div class="sf__bot"><span>© <span data-fyear>2026</span> Raghu Panchal. Designed and built by Raghu Panchal.</span><span class="sf__legal"><a href="../legal/" target="_top">Privacy &amp; credits</a></span><button data-nav="top">Back to top ↑</button></div>
   </div>
@@ -507,7 +596,7 @@ self.Worker=function(u,o){var a=alt(u)||u,abs=new URL(a,location.href).href;var 
 <button class="totop" data-nav="top" aria-label="Back to top" data-on="dark" style="--len: 150.80; --p: 1.0000;"><svg class="ring" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"></circle></svg><svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"></path></svg><span class="lbl">Back to top</span></button>
 
 <script>
-const PROJECTS = [{"kind": "iOS app · Finance", "title": "Expense Tracker", "sub": "Personal finance, organised into books", "desc": "Spending is grouped into expense books such as Personal, Travel and Business, each with its own budget. Add income or an expense in a couple of taps, see the balance, spend and budget used at a glance, and search across every entry.", "tags": ["Budgets", "Expense books", "Shortcuts & Back Tap"], "video": "assets/media/3a61c453d1-app-expense.mp4", "poster": "assets/images/3bab4de2cf-app-expense.webp", "icon": "assets/images/42f632f617-icon-expense.webp", "note": "Screen recording on iPhone", "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQBQCdASoWADAAPrFOoEunJCMhqqgA4BYJaQAAPY/9OjphkIk8XGYA6eEFf3dAe9tN3gAA/varJVrewwzMIzTFLawEO29Fx1JsHinvtEM2zUFTPr13RVQd9uhJzNhx6bwOr+5hOwzYEeeMEGNNChwNt7zrkEgAAAA="}, {"kind": "iOS app · Privacy", "title": "Secret Vault", "sub": "A photo vault disguised as a calculator", "desc": "It looks and works like an ordinary calculator. Type your secret equation and double-tap % to open a private vault: photos you import are hidden there and can be removed from your photo library.", "tags": ["Privacy", "Equation passcode", "Photos access"], "video": "assets/media/c3ec15be64-app-vault.mp4", "poster": "assets/images/96627dd6db-app-vault.webp", "icon": "assets/images/0c8fa292b1-icon-vault.webp", "note": "Recorded on iPhone with sample photos", "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBgCdASoWADAAPpVClkmlpCIhOrzIALASiWkA0YAs2W94CsvMnPEjrZH9/8puNKKooDEk+IeuVpgAAP7y2dGMKDtWIkcS87pXM5c73fkTCwUF+DRPBtVySJ2nAkgXYpkqGTouykU4hp5cR55AAA=="}, {"kind": "iOS game · Arcade", "title": "Brick Breaker", "sub": "Arcade game with pixel-art levels", "desc": "A fast arcade brick breaker: pixel-art levels, multi-ball power-ups that flood the screen, combos and a live score, with a pause menu and level-by-level progression.", "tags": ["Game design", "Power-ups", "Level design"], "video": "assets/media/27892ebb9e-app-brick.mp4", "poster": "assets/images/5b0830eef6-app-brick.webp", "icon": "assets/images/632f05aa89-icon-brick.webp", "note": "Gameplay recorded on iPhone", "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAwBgCdASoWADAAPrFGnEmnI6KhNVQIAOAWCWQAx+Q5X7Fb2+drW7FLsX3d1xUlIStpj0XKMRUoP52gAP78ptUdXrARGOtskF8MifbUiH/I2pV9htfUcRcLEZsUP3eAJrueLZGNJKnWpRjMHdgv1VjyOxdpHawEbcckCq9I27rno3Us0eHZpDW7GUyMBuEKNr8UHt6C+GiJtKWqjfSRTnZKBO1LxxDHHMli2UNE0O2QAA=="}, {"kind": "iOS app · Utility", "title": "Dice", "sub": "A colourful dice roller", "desc": "Roll several dice at once: each die fills its own block of colour and the total updates instantly, so a board-game night needs nothing but a phone.", "tags": ["Utility", "Minimal UI", "Tap to roll"], "video": "assets/media/8c35ef514f-app-dice.mp4", "poster": "assets/images/ab419f6a4c-app-dice.webp", "icon": "assets/images/2a9dead616-icon-dice.webp", "note": "Screen recording on iPhone", "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQBACdASoWADAAPqlGnkmmJCMhMAqowBUJYgCDMfkgGEg4+mAlEH6d3GNpc0AA/rhzRmSQDP+chJNr/d1jZAbXbk4ynfkvNYiJnwJ5T43ypu3InS8X7SMq5QkGluq3yOIvkG7PRYsaKUYAAAA="}];
+const PROJECTS = [{"kind":"Daily Ritual · Quiet Mornings","title":"Chai","sub":"A little chai, a little quiet, and time to gather my thoughts.","desc":"Some mornings don't need a perfect plan. Just a warm cup of chai, a quiet moment, and a little space to think. Before the notifications, meetings, and code begin, I like to slow down and figure out what really matters for the day.","tags":["Warm Chai","Quiet Moments","Slow Mornings","Space to Think","Daily Reset"],"icon":"assets/images/beyond-tea.png","image":"assets/images/beyond-tea.png","note":"A quiet moment · Finding what really matters before the code begins"},{"kind":"Stories · Reflection","title":"Reading & Writing","sub":"Getting lost in stories, thoughts, and sometimes my own words.","desc":"I enjoy reading Kannada novels and stories, especially the kind that stay with me long after I've finished them. Sometimes, a thought or feeling inspires me to write something down too. Reading and writing give me a quiet space to think, reflect, and see things differently. One thought that stays with me is — “ಇರುವುದೊಂದೇ ಬದುಕು, ಬದುಕಿಬಿಡಿ.”","tags":["Kannada Novels","Reading & Writing","Quiet Space","“ಇರುವುದೊಂದೇ ಬದುಕು, ಬದುಕಿಬಿಡಿ”","Perspective"],"icon":"assets/images/beyond-reading.png","image":"assets/images/beyond-reading.png","note":"Reflections · “ಇರುವುದೊಂದೇ ಬದುಕು, ಬದುಕಿಬಿಡಿ.”"},{"kind":"Creative Passion · Experimentation","title":"Culinary Craft & Cooking","sub":"Blending flavors, patience and joy with headphones on","desc":"Put on the headphones, turn up favorite melodies, and step into the kitchen. Cooking is iterative engineering in real life — taking raw ingredients, experimenting with spices, and perfecting each dish with patience and passion.","tags":["Culinary Art","Music & Flow","Flavor Balancing","Precision & Care","Pure Joy"],"icon":"assets/images/beyond-cooking.png","image":"assets/images/beyond-cooking.png","note":"Creative flow · Hands-on sensory crafting"},{"kind":"Recharge · Switching Off","title":"Slow Days & Rest","sub":"Taking a break, switching off, and simply doing nothing sometimes.","desc":"Not every moment has to be productive. I value a good night's sleep, quiet time, and those slow days that help me reset and come back feeling fresh.","tags":["Switching Off","Good Sleep","Quiet Time","Doing Nothing Sometimes","Mindful Reset"],"icon":"assets/images/beyond-sleep.png","image":"assets/images/beyond-sleep.png","note":"Recharge · Not every moment has to be productive"}];
 const ARROW = '<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>';
 const SIG = '<svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>';
 const WIFI = '<svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg>';
@@ -522,7 +611,6 @@ if (!stack.firstElementChild) stack.innerHTML = PROJECTS.map((p, i) => `
         <h2 id="p${i}">${esc(p.title)}</h2>
         <p class="sub">${esc(p.sub)}</p>
         <p class="desc">${esc(p.desc)}</p>
-        <ul class="tags">${p.tags.map(t => `<li>${esc(t)}</li>`).join('')}</ul>
         ${p.url ? `<a class="live" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">Visit live site ${ARROW}</a>` : `<span class="note">${esc(p.note || 'Screen recording of the build')}</span>`}
       </div>
       <div class="stage" aria-hidden="true">
