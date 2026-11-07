@@ -64,3 +64,4 @@ aliases.forEach(a => {
 });
 
 console.log('Successfully populated dist folder!');
+
