@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/projects", "destination": "/webdev_portfolio/index.live.html" },
+    { "source": "/web-developer", "destination": "/webdev_portfolio/index.live.html" },
+    { "source": "/beyond-code", "destination": "/appdev_portfolio/index.live.html" },
+    { "source": "/app-developer", "destination": "/appdev_portfolio/index.live.html" },
+    { "source": "/certificates", "destination": "/UIUX_portfolio/index.live.html" },
+    { "source": "/ui-ux-designer", "destination": "/UIUX_portfolio/index.live.html" },
+    { "source": "/graphic-designer", "destination": "/graphic/index.html" },
+    { "source": "/webdev_portfolio", "destination": "/webdev_portfolio/index.live.html" },
+    { "source": "/appdev_portfolio", "destination": "/appdev_portfolio/index.live.html" },
+    { "source": "/UIUX_portfolio", "destination": "/UIUX_portfolio/index.live.html" },
+    { "source": "/graphic", "destination": "/graphic/index.html" }
+  ]
+}
